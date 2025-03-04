@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Georgia, serif;
+    color: white;
+    text-align: center;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#section1 { background-image: url('space1.jpg'); }
+#section2 { background-image: url('space2.jpg'); }
+#section3 { background-image: url('space3.jpg'); }
+#section4 { background-image: url('space4.jpg'); }
+#section5 { background-image: url('space5.png'); }
+
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#section5 .content {
+    position: relative;
+    top: -100px; 
+}
+
